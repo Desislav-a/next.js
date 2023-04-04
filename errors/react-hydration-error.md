@@ -2,7 +2,7 @@
 
 #### Why This Error Occurred
 
-While rendering your application, there was a difference between the React tree that was pre-rendered (SSR/SSG) and the React tree that rendered during the first render in the Browser. The first render is called Hydration which is a [feature of React](https://reactjs.org/docs/react-dom.html#hydrate).
+While rendering your application, there was a difference between the React tree that was pre-rendered (SSR/SSG) and the React tree that rendered during the first render in the Browser. The first render is called Hydration which is a [feature of React](https://react.dev/reference/react-dom/client/hydrateRoot).
 
 This can cause the React tree to be out of sync with the DOM and result in unexpected content/attributes being present.
 
